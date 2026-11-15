@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ClaudeAITest.uproject" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ClaudeAITest.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ClaudeAITestEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Source\ClaudeAITest">
+      <UniqueIdentifier>{3B4C2A68-D707-391C-8C84-BF4D0539896C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ClaudeAITest\ClaudeAITest.Build.cs">
+      <Filter>Source\ClaudeAITest</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ClaudeAITest\ClaudeAITest.cpp">
+      <Filter>Source\ClaudeAITest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\ClaudeAITest.h">
+      <Filter>Source\ClaudeAITest</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\ClaudeAITestCharacter.cpp">
+      <Filter>Source\ClaudeAITest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\ClaudeAITestCharacter.h">
+      <Filter>Source\ClaudeAITest</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\ClaudeAITestGameMode.cpp">
+      <Filter>Source\ClaudeAITest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\ClaudeAITestGameMode.h">
+      <Filter>Source\ClaudeAITest</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\ClaudeAITestPlayerController.cpp">
+      <Filter>Source\ClaudeAITest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\ClaudeAITestPlayerController.h">
+      <Filter>Source\ClaudeAITest</Filter>
+    </ClInclude>
+    <Filter Include="Source\ClaudeAITest\Variant_Combat">
+      <UniqueIdentifier>{89D2D7F2-7AB4-3AF1-A7C2-BEADA7DB24D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ClaudeAITest\Variant_Combat\AI">
+      <UniqueIdentifier>{1B18E9AC-A6F3-37EE-9B9B-9A6CAB46514C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\AI\EnvQueryContext_Danger.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\AI\EnvQueryContext_Danger.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ClaudeAITest\Variant_Combat\Animation">
+      <UniqueIdentifier>{D1883241-80D8-375C-9717-B6966A72E92B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\ClaudeAITest\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{83D06FD2-1BAD-3E89-BDE7-58E96CE88737}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\ClaudeAITest\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{C50DEED4-B90B-3D2E-AA4F-146D0003DDA1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\ClaudeAITest\Variant_Combat\UI">
+      <UniqueIdentifier>{3DCA6BF8-64A1-3192-82BB-0C6F7A518B6E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\ClaudeAITest\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ClaudeAITest\Variant_Platforming">
+      <UniqueIdentifier>{7C10DAAA-E293-31DE-9FDD-FA52E56E8F4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ClaudeAITest\Variant_Platforming\Animation">
+      <UniqueIdentifier>{AC584458-B193-3E1A-90E3-035D1603C70B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\ClaudeAITest\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\ClaudeAITest\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\ClaudeAITest\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\ClaudeAITest\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\ClaudeAITest\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\ClaudeAITest\Variant_SideScrolling">
+      <UniqueIdentifier>{4977B881-F6EA-3E2B-9A50-981FD1FCEB8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ClaudeAITest\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{552F4DC8-0713-35C0-9B70-EDDED4302BD4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\ClaudeAITest\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{43D193E3-C626-3930-9366-1B22EF6F626F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\ClaudeAITest\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{5E89620D-5A0B-3329-AB88-76E4CFFAE324}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\ClaudeAITest\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{757DC576-6F89-3B23-B7B1-F7525F72EBCC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ClaudeAITest\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\ClaudeAITest\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

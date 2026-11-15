@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ClaudeAITest",
+			"Path": "..\\Source\\ClaudeAITest.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ClaudeAITestEditor",
+			"Path": "..\\Source\\ClaudeAITestEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

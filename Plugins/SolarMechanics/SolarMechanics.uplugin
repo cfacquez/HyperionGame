@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Solar Mechanics",
+	"Description": "Mecanique orbitale du systeme solaire : orbites kepleriennes (elements JPL), masses des astres et gravite appliquee aux vaisseaux.",
+	"Category": "Gameplay",
+	"CreatedBy": "",
+	"CanContainContent": false,
+	"EnabledByDefault": true,
+	"Modules": [
+		{
+			"Name": "SolarMechanics",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
