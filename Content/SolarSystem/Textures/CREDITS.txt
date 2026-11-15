@@ -1,0 +1,8 @@
+Planet and Sun textures: Solar System Scope - https://www.solarsystemscope.com/textures/
+License: Creative Commons Attribution 4.0 International (CC BY 4.0) - https://creativecommons.org/licenses/by/4.0/
+
+Files used (renamed T_<body>.jpg on import):
+8k_sun, 8k_mercury, 2k_venus_atmosphere, 8k_earth_daymap, 8k_moon,
+8k_mars, 8k_jupiter, 8k_saturn, 2k_uranus, 2k_neptune,
+8k_saturn_ring_alpha (imported as T_saturn_ring.png),
+8k_earth_clouds, 8k_earth_nightmap, 8k_stars_milky_way
