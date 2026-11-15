@@ -1,0 +1,2188 @@
+{
+ "nodes": [
+  {
+   "name": "BP_Hyperion",
+   "parent": null,
+   "mesh": null,
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "SM_S1_Proue",
+   "parent": "BP_Hyperion",
+   "mesh": "SM_S1_Proue",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "SM_Antennes_Proue",
+   "parent": "SM_S1_Proue",
+   "mesh": "SM_Antennes_Proue",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "SM_Propulseur_Manoeuvre_H",
+   "parent": "SM_S1_Proue",
+   "mesh": "SM_Propulseur_Manoeuvre",
+   "loc": [
+    0.0,
+    59500.0,
+    1929.4872
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Propulseur_Manoeuvre_B",
+   "parent": "SM_S1_Proue",
+   "mesh": "SM_Propulseur_Manoeuvre",
+   "loc": [
+    0.0,
+    59500.0,
+    -1929.4872
+   ],
+   "rot": [
+    0.0,
+    180.0,
+    180.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Propulseur_Manoeuvre_G",
+   "parent": "SM_S1_Proue",
+   "mesh": "SM_Propulseur_Manoeuvre",
+   "loc": [
+    2294.8718,
+    59500.0,
+    0.0
+   ],
+   "rot": [
+    -90.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Propulseur_Manoeuvre_D",
+   "parent": "SM_S1_Proue",
+   "mesh": "SM_Propulseur_Manoeuvre",
+   "loc": [
+    -2294.8718,
+    59500.0,
+    0.0
+   ],
+   "rot": [
+    90.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_S2_Ovale",
+   "parent": "BP_Hyperion",
+   "mesh": "SM_S2_Ovale",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "SM_S3_Commandement",
+   "parent": "BP_Hyperion",
+   "mesh": "SM_S3_Commandement",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "SM_Passerelle",
+   "parent": "SM_S3_Commandement",
+   "mesh": "SM_Passerelle",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "SM_Antenne_Passerelle",
+   "parent": "SM_S3_Commandement",
+   "mesh": "SM_Antenne_Passerelle",
+   "loc": [
+    0.0,
+    -6000.0,
+    5750.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Nacelle_G",
+   "parent": "SM_S3_Commandement",
+   "mesh": "SM_Nacelle_G",
+   "loc": [
+    16000.0,
+    4300.0,
+    0.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_PorteHangar_G",
+   "parent": "SM_Nacelle_G",
+   "mesh": "SM_PorteHangar",
+   "loc": [
+    1800.0,
+    3817.8286,
+    0.0
+   ],
+   "rot": [
+    0.0,
+    -39.24064,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Nacelle_D",
+   "parent": "SM_S3_Commandement",
+   "mesh": "SM_Nacelle_D",
+   "loc": [
+    -16000.0,
+    4300.0,
+    0.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_PorteHangar_D",
+   "parent": "SM_Nacelle_D",
+   "mesh": "SM_PorteHangar",
+   "loc": [
+    -1800.0,
+    3817.8286,
+    0.0
+   ],
+   "rot": [
+    0.0,
+    39.24064,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_S4_Moyeu",
+   "parent": "BP_Hyperion",
+   "mesh": "SM_S4_Moyeu",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "Pivot_Anneau",
+   "parent": "SM_S4_Moyeu",
+   "mesh": null,
+   "loc": [
+    0.0,
+    -20500.0,
+    0.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Anneau",
+   "parent": "Pivot_Anneau",
+   "mesh": "SM_Anneau",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "SM_Rayons",
+   "parent": "Pivot_Anneau",
+   "mesh": "SM_Rayons",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "SM_S5_Propulsion",
+   "parent": "BP_Hyperion",
+   "mesh": "SM_S5_Propulsion",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "SM_Tuyere_Main_L",
+   "parent": "SM_S5_Propulsion",
+   "mesh": "SM_Tuyere_Main",
+   "loc": [
+    3700.0,
+    -58500.0,
+    0.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Tuyere_Main_R",
+   "parent": "SM_S5_Propulsion",
+   "mesh": "SM_Tuyere_Main",
+   "loc": [
+    -3700.0,
+    -58500.0,
+    0.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Tuyere_Aux_01",
+   "parent": "SM_S5_Propulsion",
+   "mesh": "SM_Tuyere_Aux",
+   "loc": [
+    8000.0,
+    -58500.0,
+    3400.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Tuyere_Aux_02",
+   "parent": "SM_S5_Propulsion",
+   "mesh": "SM_Tuyere_Aux",
+   "loc": [
+    0.0,
+    -58500.0,
+    5400.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Tuyere_Aux_03",
+   "parent": "SM_S5_Propulsion",
+   "mesh": "SM_Tuyere_Aux",
+   "loc": [
+    -8000.0,
+    -58500.0,
+    3400.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Tuyere_Aux_04",
+   "parent": "SM_S5_Propulsion",
+   "mesh": "SM_Tuyere_Aux",
+   "loc": [
+    -8000.0,
+    -58500.0,
+    -3400.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Tuyere_Aux_05",
+   "parent": "SM_S5_Propulsion",
+   "mesh": "SM_Tuyere_Aux",
+   "loc": [
+    0.0,
+    -58500.0,
+    -5400.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Tuyere_Aux_06",
+   "parent": "SM_S5_Propulsion",
+   "mesh": "SM_Tuyere_Aux",
+   "loc": [
+    8000.0,
+    -58500.0,
+    -3400.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Antenne",
+   "parent": "SM_S5_Propulsion",
+   "mesh": "SM_Antenne_Mat",
+   "loc": [
+    0.0,
+    -43500.0,
+    9000.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Antenne_Parabole",
+   "parent": "SM_Antenne",
+   "mesh": "SM_Antenne_Parabole",
+   "loc": [
+    0.0,
+    0.0,
+    1400.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    -35.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Propulseur_Manoeuvre_AR_H1",
+   "parent": "SM_S5_Propulsion",
+   "mesh": "SM_Propulseur_Manoeuvre",
+   "loc": [
+    3000.0,
+    -53500.0,
+    9000.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Propulseur_Manoeuvre_AR_B1",
+   "parent": "SM_S5_Propulsion",
+   "mesh": "SM_Propulseur_Manoeuvre",
+   "loc": [
+    3000.0,
+    -53500.0,
+    -9000.0
+   ],
+   "rot": [
+    0.0,
+    180.0,
+    180.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Propulseur_Manoeuvre_AR_G1",
+   "parent": "SM_S5_Propulsion",
+   "mesh": "SM_Propulseur_Manoeuvre",
+   "loc": [
+    12000.0,
+    -53500.0,
+    2500.0
+   ],
+   "rot": [
+    -90.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Propulseur_Manoeuvre_AR_D1",
+   "parent": "SM_S5_Propulsion",
+   "mesh": "SM_Propulseur_Manoeuvre",
+   "loc": [
+    -12000.0,
+    -53500.0,
+    2500.0
+   ],
+   "rot": [
+    90.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Propulseur_Manoeuvre_AR_H2",
+   "parent": "SM_S5_Propulsion",
+   "mesh": "SM_Propulseur_Manoeuvre",
+   "loc": [
+    -3000.0,
+    -53500.0,
+    9000.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Propulseur_Manoeuvre_AR_B2",
+   "parent": "SM_S5_Propulsion",
+   "mesh": "SM_Propulseur_Manoeuvre",
+   "loc": [
+    -3000.0,
+    -53500.0,
+    -9000.0
+   ],
+   "rot": [
+    0.0,
+    180.0,
+    180.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Propulseur_Manoeuvre_AR_G2",
+   "parent": "SM_S5_Propulsion",
+   "mesh": "SM_Propulseur_Manoeuvre",
+   "loc": [
+    12000.0,
+    -53500.0,
+    -2500.0
+   ],
+   "rot": [
+    -90.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Propulseur_Manoeuvre_AR_D2",
+   "parent": "SM_S5_Propulsion",
+   "mesh": "SM_Propulseur_Manoeuvre",
+   "loc": [
+    -12000.0,
+    -53500.0,
+    -2500.0
+   ],
+   "rot": [
+    90.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "SM_Carenage_Moteurs",
+   "parent": "SM_S5_Propulsion",
+   "mesh": "SM_Carenage_Moteurs",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "SM_Hublots_S5",
+   "parent": "SM_S5_Propulsion",
+   "mesh": "SM_Hublots_S5",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "Armement",
+   "parent": "BP_Hyperion",
+   "mesh": null,
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "WPN_Heavy_01",
+   "parent": "Armement",
+   "mesh": "SM_Tourelle_Base",
+   "loc": [
+    0.0,
+    34330.0,
+    4915.9117
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Heavy_01_Lacet",
+   "parent": "WPN_Heavy_01",
+   "mesh": "SM_Tourelle_Corps",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "WPN_Heavy_01_Site",
+   "parent": "WPN_Heavy_01_Lacet",
+   "mesh": "SM_Tourelle_Canons",
+   "loc": [
+    0.0,
+    600.0,
+    950.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Heavy_02",
+   "parent": "Armement",
+   "mesh": "SM_Tourelle_Base",
+   "loc": [
+    0.0,
+    22670.0,
+    4915.9117
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Heavy_02_Lacet",
+   "parent": "WPN_Heavy_02",
+   "mesh": "SM_Tourelle_Corps",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "WPN_Heavy_02_Site",
+   "parent": "WPN_Heavy_02_Lacet",
+   "mesh": "SM_Tourelle_Canons",
+   "loc": [
+    0.0,
+    600.0,
+    950.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Heavy_03",
+   "parent": "Armement",
+   "mesh": "SM_Tourelle_Base",
+   "loc": [
+    0.0,
+    34330.0,
+    -4915.9117
+   ],
+   "rot": [
+    0.0,
+    180.0,
+    180.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Heavy_03_Lacet",
+   "parent": "WPN_Heavy_03",
+   "mesh": "SM_Tourelle_Corps",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "WPN_Heavy_03_Site",
+   "parent": "WPN_Heavy_03_Lacet",
+   "mesh": "SM_Tourelle_Canons",
+   "loc": [
+    0.0,
+    600.0,
+    950.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Heavy_04",
+   "parent": "Armement",
+   "mesh": "SM_Tourelle_Base",
+   "loc": [
+    0.0,
+    22670.0,
+    -4915.9117
+   ],
+   "rot": [
+    0.0,
+    180.0,
+    180.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Heavy_04_Lacet",
+   "parent": "WPN_Heavy_04",
+   "mesh": "SM_Tourelle_Corps",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "WPN_Heavy_04_Site",
+   "parent": "WPN_Heavy_04_Lacet",
+   "mesh": "SM_Tourelle_Canons",
+   "loc": [
+    0.0,
+    600.0,
+    950.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Heavy_05",
+   "parent": "Armement",
+   "mesh": "SM_Tourelle_Base",
+   "loc": [
+    11670.0,
+    8038.0,
+    5750.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Heavy_05_Lacet",
+   "parent": "WPN_Heavy_05",
+   "mesh": "SM_Tourelle_Corps",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "WPN_Heavy_05_Site",
+   "parent": "WPN_Heavy_05_Lacet",
+   "mesh": "SM_Tourelle_Canons",
+   "loc": [
+    0.0,
+    600.0,
+    950.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Heavy_06",
+   "parent": "Armement",
+   "mesh": "SM_Tourelle_Base",
+   "loc": [
+    -11670.0,
+    8038.0,
+    5750.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Heavy_06_Lacet",
+   "parent": "WPN_Heavy_06",
+   "mesh": "SM_Tourelle_Corps",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "WPN_Heavy_06_Site",
+   "parent": "WPN_Heavy_06_Lacet",
+   "mesh": "SM_Tourelle_Canons",
+   "loc": [
+    0.0,
+    600.0,
+    950.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Heavy_07",
+   "parent": "Armement",
+   "mesh": "SM_Tourelle_Base",
+   "loc": [
+    11670.0,
+    -7138.0,
+    -5750.0
+   ],
+   "rot": [
+    0.0,
+    180.0,
+    180.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Heavy_07_Lacet",
+   "parent": "WPN_Heavy_07",
+   "mesh": "SM_Tourelle_Corps",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "WPN_Heavy_07_Site",
+   "parent": "WPN_Heavy_07_Lacet",
+   "mesh": "SM_Tourelle_Canons",
+   "loc": [
+    0.0,
+    600.0,
+    950.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Heavy_08",
+   "parent": "Armement",
+   "mesh": "SM_Tourelle_Base",
+   "loc": [
+    -11670.0,
+    -7138.0,
+    -5750.0
+   ],
+   "rot": [
+    0.0,
+    180.0,
+    180.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Heavy_08_Lacet",
+   "parent": "WPN_Heavy_08",
+   "mesh": "SM_Tourelle_Corps",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "WPN_Heavy_08_Site",
+   "parent": "WPN_Heavy_08_Lacet",
+   "mesh": "SM_Tourelle_Canons",
+   "loc": [
+    0.0,
+    600.0,
+    950.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Spinal",
+   "parent": "Armement",
+   "mesh": "WPN_Spinal_Bouche",
+   "loc": [
+    0.0,
+    63700.0,
+    0.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Main",
+   "parent": "Armement",
+   "mesh": "SM_Main_Base",
+   "loc": [
+    0.0,
+    500.0,
+    -5750.0
+   ],
+   "rot": [
+    0.0,
+    180.0,
+    180.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Main_Lacet",
+   "parent": "WPN_Main",
+   "mesh": "SM_Main_Corps",
+   "loc": [
+    0,
+    0,
+    0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "name": "WPN_Main_Site",
+   "parent": "WPN_Main_Lacet",
+   "mesh": "SM_Main_Canons",
+   "loc": [
+    0.0,
+    2800.0,
+    1600.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "VLS_01",
+   "parent": "Armement",
+   "mesh": "SM_VLS",
+   "loc": [
+    10000.0,
+    -138.0,
+    5750.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "VLS_02",
+   "parent": "Armement",
+   "mesh": "SM_VLS",
+   "loc": [
+    -10000.0,
+    -138.0,
+    5750.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "VLS_03",
+   "parent": "Armement",
+   "mesh": "SM_VLS",
+   "loc": [
+    5400.0,
+    -38250.0,
+    9000.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "VLS_04",
+   "parent": "Armement",
+   "mesh": "SM_VLS",
+   "loc": [
+    -5400.0,
+    -38250.0,
+    9000.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Laser_01",
+   "parent": "Armement",
+   "mesh": "SM_Laser_Base",
+   "loc": [
+    6670.0,
+    -49500.0,
+    9000.0
+   ],
+   "rot": [
+    0.0,
+    180.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Laser_01_Site",
+   "parent": "WPN_Laser_01",
+   "mesh": "SM_Laser_Canon",
+   "loc": [
+    0.0,
+    200.0,
+    400.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Laser_02",
+   "parent": "Armement",
+   "mesh": "SM_Laser_Base",
+   "loc": [
+    -6670.0,
+    -49500.0,
+    9000.0
+   ],
+   "rot": [
+    0.0,
+    180.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Laser_02_Site",
+   "parent": "WPN_Laser_02",
+   "mesh": "SM_Laser_Canon",
+   "loc": [
+    0.0,
+    200.0,
+    400.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Laser_03",
+   "parent": "Armement",
+   "mesh": "SM_Laser_Base",
+   "loc": [
+    6670.0,
+    -49500.0,
+    -9000.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    180.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Laser_03_Site",
+   "parent": "WPN_Laser_03",
+   "mesh": "SM_Laser_Canon",
+   "loc": [
+    0.0,
+    200.0,
+    400.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Laser_04",
+   "parent": "Armement",
+   "mesh": "SM_Laser_Base",
+   "loc": [
+    -6670.0,
+    -49500.0,
+    -9000.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    180.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "WPN_Laser_04_Site",
+   "parent": "WPN_Laser_04",
+   "mesh": "SM_Laser_Canon",
+   "loc": [
+    0.0,
+    200.0,
+    400.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_01",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    0.0,
+    51800.0,
+    2600.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_02",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    0.0,
+    51800.0,
+    -2600.0
+   ],
+   "rot": [
+    0.0,
+    180.0,
+    180.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_03",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    8000.0,
+    28500.0,
+    0.0
+   ],
+   "rot": [
+    -90.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_04",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    -8000.0,
+    28500.0,
+    0.0
+   ],
+   "rot": [
+    90.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_05",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    0.0,
+    30500.0,
+    5500.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_06",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    0.0,
+    30500.0,
+    -5500.0
+   ],
+   "rot": [
+    0.0,
+    180.0,
+    180.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_07",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    5770.0,
+    19500.0,
+    0.0
+   ],
+   "rot": [
+    -90.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_08",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    -5770.0,
+    19500.0,
+    0.0
+   ],
+   "rot": [
+    90.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_09",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    10000.0,
+    -8300.0,
+    5750.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_10",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    -10000.0,
+    -8300.0,
+    5750.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_11",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    10000.0,
+    -8300.0,
+    -5750.0
+   ],
+   "rot": [
+    0.0,
+    180.0,
+    180.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_12",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    -10000.0,
+    -8300.0,
+    -5750.0
+   ],
+   "rot": [
+    0.0,
+    180.0,
+    180.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_13",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    0.0,
+    11300.0,
+    5750.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_14",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    0.0,
+    -14500.0,
+    4500.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_15",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    0.0,
+    -14500.0,
+    -4500.0
+   ],
+   "rot": [
+    0.0,
+    180.0,
+    180.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_16",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    8000.0,
+    -32500.0,
+    9000.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_17",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    8000.0,
+    -54500.0,
+    9000.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_18",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    -8000.0,
+    -32500.0,
+    9000.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_19",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    -8000.0,
+    -54500.0,
+    9000.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_20",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    8000.0,
+    -32500.0,
+    -9000.0
+   ],
+   "rot": [
+    0.0,
+    180.0,
+    180.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_21",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    8000.0,
+    -54500.0,
+    -9000.0
+   ],
+   "rot": [
+    0.0,
+    180.0,
+    180.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_22",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    -8000.0,
+    -32500.0,
+    -9000.0
+   ],
+   "rot": [
+    0.0,
+    180.0,
+    180.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "CIWS_23",
+   "parent": "Armement",
+   "mesh": "SM_CIWS",
+   "loc": [
+    -8000.0,
+    -54500.0,
+    -9000.0
+   ],
+   "rot": [
+    0.0,
+    180.0,
+    180.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ ],
+ "materials": [
+  {
+   "name": "M_Coque",
+   "base": [
+    0.54,
+    0.59,
+    0.66,
+    1.0
+   ],
+   "metal": 0.3,
+   "rough": 0.6,
+   "emissive": [
+    0,
+    0,
+    0
+   ],
+   "alpha": "OPAQUE"
+  },
+  {
+   "name": "M_CoqueSombre",
+   "base": [
+    0.33,
+    0.38,
+    0.45,
+    1.0
+   ],
+   "metal": 0.3,
+   "rough": 0.6,
+   "emissive": [
+    0,
+    0,
+    0
+   ],
+   "alpha": "OPAQUE"
+  },
+  {
+   "name": "M_Anneau",
+   "base": [
+    0.66,
+    0.71,
+    0.77,
+    1.0
+   ],
+   "metal": 0.3,
+   "rough": 0.6,
+   "emissive": [
+    0,
+    0,
+    0
+   ],
+   "alpha": "OPAQUE"
+  },
+  {
+   "name": "M_Armement",
+   "base": [
+    0.95,
+    0.66,
+    0.23,
+    1.0
+   ],
+   "metal": 0.3,
+   "rough": 0.6,
+   "emissive": [
+    0,
+    0,
+    0
+   ],
+   "alpha": "OPAQUE"
+  },
+  {
+   "name": "M_Propulsion",
+   "base": [
+    0.37,
+    0.83,
+    0.93,
+    1.0
+   ],
+   "metal": 0.3,
+   "rough": 0.6,
+   "emissive": [
+    0.37,
+    0.83,
+    0.93
+   ],
+   "alpha": "OPAQUE"
+  },
+  {
+   "name": "M_Vitrage",
+   "base": [
+    0.96,
+    0.91,
+    0.71,
+    1.0
+   ],
+   "metal": 0.3,
+   "rough": 0.6,
+   "emissive": [
+    0.96,
+    0.91,
+    0.71
+   ],
+   "alpha": "OPAQUE"
+  }
+ ]
+}
